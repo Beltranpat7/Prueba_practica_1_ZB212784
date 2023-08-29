@@ -1,0 +1,62 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+    line-height: 1.6;
+}
+
+h1 {
+    background-color: #2fc7ba;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #050505;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4a4c4e;
+}
+
+/* Estilo pa la tabla */
+table {
+    margin: 20px auto;
+    width: 70%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+p {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+}

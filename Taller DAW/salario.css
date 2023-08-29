@@ -1,0 +1,70 @@
+/* Reset de estilos y estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #6f97e2, #60db60);
+    color: #ffffff;
+    line-height: 1.6;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    user-select: none; /* Evita que el texto del encabezado se pueda seleccionar. */
+}
+
+/* Estilos para el botón */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 24px;
+    background-color: #ff4500;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    user-select: none; /* Evita que el texto del botón se pueda seleccionar. */
+}
+
+button:hover {
+    background-color: #ff6347;
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 10px #ff6347, 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para mostrar el resultado */
+div {
+    margin: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-size: 18px;
+    font-weight: 500;
+}
